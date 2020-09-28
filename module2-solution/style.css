@@ -29,6 +29,7 @@ section{
 	border: 2px solid black;
 	margin:auto;
 	position: relative;
+	overflow: hidden;
     
     }
 
@@ -68,6 +69,7 @@ p {
   position: static;
   padding-left: 15px;
   padding-top: 30px;
+
    
  }
 
