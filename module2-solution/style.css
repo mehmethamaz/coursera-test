@@ -1,0 +1,140 @@
+*{
+			box-sizing: border-box;
+			font-family:  "Trebuchet MS", Helvetica, sans-serif
+
+
+		}
+
+h1{
+
+text-align: center;
+margin-top: 6%;
+margin-bottom: 6%;
+font-size:200%;
+
+}
+
+div{
+
+	border:none;
+	margin-bottom: 10px;
+	padding: 10px;
+	 
+}
+
+section{
+	background: gray;
+	height: 150px;
+	width: 100%;
+	border: 2px solid black;
+	margin:auto;
+	position: relative;
+    
+    }
+
+/****SECTION TITLE PART *******/
+
+   	span.topic{
+border-left: 2px solid;
+border-bottom: 2px solid;
+font-weight: bold;
+font-size: 125%;
+height: 40px;
+width:130px;
+text-align: center;
+padding: 10px;
+position: absolute;
+top: 0px;
+right: 0px;
+}
+
+#a{
+	background: #EFC050;
+}
+
+#b{
+	background: #92A8D1;
+}
+
+#c{
+	background: #FF6F61;
+}
+
+/***** DUMMY TEXT PART ****/
+
+p {
+   width: 90%;
+  color: white;
+  position: static;
+  padding-left: 15px;
+  padding-top: 30px;
+   
+ }
+
+div.row{
+	width: 100%;
+}
+
+/******** LARGE DEVICE ********/
+
+@media (min-width: 992px){
+ .alarge, .blarge, .clarge {
+	float:left;
+}
+
+div.alarge{
+	width: 33%;
+	}
+
+
+
+div.blarge{
+	width: 33%;
+	}
+	
+
+
+div.clarge{
+	width: 33%;
+	}
+}
+
+/**** MEDIUM DEVICES ****/
+
+@media (min-width: 768px) and (max-width: 991px){ 
+	.amedium, .bmedium, .cmedium{
+	float:left;
+	
+
+
+}
+
+div.amedium{
+	width: 50%;
+	}
+
+
+
+div.bmedium{
+	width: 50%;
+	}
+	
+
+
+div.cmedium{
+	width: 100%;
+
+		}
+}
+
+/**** SMALL DEVICES ***/
+	
+@media (max-width: 767px){
+	.asmall, .bsmall, .csmall{
+	float:left;
+	width: 100%;
+	}
+
+}
+
+
