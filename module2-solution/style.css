@@ -26,7 +26,7 @@ section{
 	background: gray;
 	height: 150px;
 	width: 100%;
-	border: 2px solid black;
+	border: 1px solid black;
 	margin:auto;
 	position: relative;
 	overflow: hidden;
@@ -36,8 +36,8 @@ section{
 /****SECTION TITLE PART *******/
 
    	span.topic{
-border-left: 2px solid;
-border-bottom: 2px solid;
+border-left: 1px solid;
+border-bottom: 1px solid;
 font-weight: bold;
 font-size: 125%;
 height: 40px;
